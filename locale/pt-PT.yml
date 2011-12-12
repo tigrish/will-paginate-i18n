@@ -1,0 +1,4 @@
+pt-PT:
+  will_paginate:
+    next_label: próximo →
+    previous_label: ← anterior

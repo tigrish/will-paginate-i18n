@@ -1,0 +1,4 @@
+ja:
+  will_paginate:
+    next_label: 次へ →
+    previous_label: ← 前へ

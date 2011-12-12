@@ -1,0 +1,4 @@
+da:
+  will_paginate:
+    next_label: næste →
+    previous_label: ← forrige

@@ -1,0 +1,4 @@
+it:
+  will_paginate:
+    next_label: successivo →
+    previous_label: ← precedente

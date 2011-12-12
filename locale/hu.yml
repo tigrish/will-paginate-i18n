@@ -1,0 +1,4 @@
+hu:
+  will_paginate:
+    next_label: következő →
+    previous_label: ← előző

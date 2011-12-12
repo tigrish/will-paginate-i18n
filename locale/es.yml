@@ -1,0 +1,4 @@
+es:
+  will_paginate:
+    next_label: siguiente →
+    previous_label: ← atrás

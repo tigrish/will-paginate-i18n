@@ -1,0 +1,4 @@
+bg:
+  will_paginate:
+    next_label: следваща →
+    previous_label: ← предишна
