@@ -2,6 +2,11 @@
 
 [![Build Status](https://secure.travis-ci.org/tigrish/will-paginate-i18n.png)](http://travis-ci.org/tigrish/will-paginate-i18n)
 
+Translations for the will-paginate gem.
+
+These tranlsations can be included automatically using the
+[Locale](http://www.localeapp.com) localization app.
+
 ## Contributing to will-paginate-i18n
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
