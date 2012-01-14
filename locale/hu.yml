@@ -1,4 +1,5 @@
 hu:
   will_paginate:
     next_label: következő →
+    page_gap: ! '&hellip;'
     previous_label: ← előző

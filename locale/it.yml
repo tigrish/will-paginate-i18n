@@ -1,4 +1,5 @@
 it:
   will_paginate:
     next_label: successivo →
+    page_gap: ! '&hellip;'
     previous_label: ← precedente

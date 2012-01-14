@@ -1,5 +1,5 @@
-pt-PT:
+ro:
   will_paginate:
-    next_label: próximo →
+    next_label: următor →
     page_gap: ! '&hellip;'
     previous_label: ← anterior

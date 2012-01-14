@@ -1,0 +1,17 @@
+sk:
+  will_paginate:
+    next_label: Ďalšia &#8594;
+    page_entries_info:
+      multi_page: Zobrazujem %{model} %{from} - %{to} z celkovo %{count}
+      multi_page_html: Zobrazujem %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> z celkovo
+        <b>%{count}</b>
+      single_page:
+        one: Zobrazujem 1 %{model}
+        other: Zobrazujem všetkých %{count} %{model}
+        zero: Nenájdený žiadny %{model}
+      single_page_html:
+        one: Zobrazujem <b>1</b> %{model}
+        other: Zobrazujem <b>všetkých&nbsp;%{count}</b> %{model}
+        zero: Nenájdený žiadny %{model}
+    page_gap: ! '&hellip;'
+    previous_label: ! '&#8592; Predošlá'

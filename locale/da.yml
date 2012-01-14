@@ -1,4 +1,5 @@
 da:
   will_paginate:
     next_label: næste →
+    page_gap: ! '&hellip;'
     previous_label: ← forrige
