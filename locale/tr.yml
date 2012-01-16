@@ -1,0 +1,16 @@
+tr:
+  will_paginate:
+    next_label: Sonraki &#8594;
+    page_entries_info:
+      multi_page: Toplamda %{from} - %{to} arası %{count} %{model} gösteriliyor
+      multi_page_html: Toplamda <b>%{from}&nbsp;-&nbsp;%{to}</b> arası <b>%{count}</b> %{model} gösteriliyor.
+      single_page:
+        one: 1 %{model} gösteriliyor
+        other: %{count} %{model} hepsi gösteriliyor
+        zero: Hiç %{model} yok
+      single_page_html:
+        one: <b>1</b> %{model} gösteriliyor
+        other: <b>%{count}</b> %{model} hepsi gösteriliyor
+        zero: Hiç %{model} yok
+    page_gap: ! '&hellip;'
+    previous_label: ! '&#8592; Önceki'
