@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{will-paginate-i18n}
-  s.version = "0.0.7"
+  s.version = "0.0.8"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Christopher Dell}]
-  s.date = %q{2012-02-03}
+  s.date = %q{2012-02-06}
   s.description = %q{Translations for the will_paginate gem}
   s.email = %q{chris@tigrish.com}
   s.extra_rdoc_files = [
@@ -40,6 +40,7 @@ Gem::Specification.new do |s|
     "locale/it.yml",
     "locale/ja.yml",
     "locale/nl.yml",
+    "locale/pt-BR.yml",
     "locale/pt-PT.yml",
     "locale/ro.yml",
     "locale/ru.yml",
