@@ -11,7 +11,7 @@ pt-BR:
         zero: Nenhum %{model} encontrado
       single_page_html:
         one: Exibindo <b>1</b> %{model}
-        other: Exibind <b>todos&nbsp;%{count}</b> %{model}
+        other: Exibindo <b>todos os&nbsp;%{count}</b> %{model}
         zero: Nenhum %{model} encontrado
     page_gap: ! '&hellip;'
     previous_label: ! '&#8592; Anteriores'
