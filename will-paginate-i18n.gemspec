@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{will-paginate-i18n}
-  s.version = "0.0.9"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Christopher Dell}]
-  s.date = %q{2012-02-06}
+  s.date = %q{2012-03-02}
   s.description = %q{Translations for the will_paginate gem}
   s.email = %q{chris@tigrish.com}
   s.extra_rdoc_files = [
@@ -28,25 +28,25 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/will-paginate-i18n.rb",
-    "locale/bg.yml",
-    "locale/da.yml",
-    "locale/de.yml",
-    "locale/en-AU.yml",
-    "locale/en-GB.yml",
-    "locale/en-US.yml",
-    "locale/es.yml",
-    "locale/fr.yml",
-    "locale/hu.yml",
-    "locale/it.yml",
-    "locale/ja.yml",
-    "locale/nl.yml",
-    "locale/pt-BR.yml",
-    "locale/pt-PT.yml",
-    "locale/ro.yml",
-    "locale/ru.yml",
-    "locale/sk.yml",
-    "locale/tr.yml",
-    "locale/zh-CN.yml",
+    "locales/bg.yml",
+    "locales/da.yml",
+    "locales/de.yml",
+    "locales/en-AU.yml",
+    "locales/en-GB.yml",
+    "locales/en-US.yml",
+    "locales/es.yml",
+    "locales/fr.yml",
+    "locales/hu.yml",
+    "locales/it.yml",
+    "locales/ja.yml",
+    "locales/nl.yml",
+    "locales/pt-BR.yml",
+    "locales/pt-PT.yml",
+    "locales/ro.yml",
+    "locales/ru.yml",
+    "locales/sk.yml",
+    "locales/tr.yml",
+    "locales/zh-CN.yml",
     "spec/spec_helper.rb",
     "spec/will-paginate-i18n_spec.rb",
     "will-paginate-i18n.gemspec"
@@ -66,12 +66,14 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.3"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
       s.add_development_dependency(%q<i18n-spec>, [">= 0"])
+      s.add_development_dependency(%q<localeapp>, [">= 0"])
     else
       s.add_dependency(%q<rspec>, ["~> 2.8.0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.10"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
       s.add_dependency(%q<rcov>, [">= 0"])
       s.add_dependency(%q<i18n-spec>, [">= 0"])
+      s.add_dependency(%q<localeapp>, [">= 0"])
     end
   else
     s.add_dependency(%q<rspec>, ["~> 2.8.0"])
@@ -79,6 +81,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
     s.add_dependency(%q<rcov>, [">= 0"])
     s.add_dependency(%q<i18n-spec>, [">= 0"])
+    s.add_dependency(%q<localeapp>, [">= 0"])
   end
 end
 
