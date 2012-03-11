@@ -1,5 +1,17 @@
 de:
   will_paginate:
     next_label: Weiter →
+    page_entries_info:
+      multi_page: Zeige %{model} %{from} - %{to} von %{count} insgesamt
+      multi_page_html: Zeige %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> von <b>%{count}</b>
+        insgesamt
+      single_page:
+        one: Zeige 1 %{model}
+        other: Zeige alle %{count} %{model}
+        zero: Kein(e) %{model} gefunden
+      single_page_html:
+        one: Zeige <b>1</b> %{model}
+        other: Zeige <b>alle&nbsp;%{count}</b> %{model}
+        zero: Kein(e) %{model} gefunden
     page_gap: ! '&hellip;'
     previous_label: ← Vorige
