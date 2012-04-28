@@ -1,5 +1,28 @@
 ru:
   will_paginate:
     next_label: Следующая →
+    page_entries_info:
+      single_page:
+        zero: Записей не найдено
+        one: Отображена %{count} запись
+        few: Отображено %{count} записи
+        many: Отображено %{count} записей
+        other: Отображено %{count} записей
+      single_page_html:
+        zero: Записей не найдено
+        one: Отображена <b>%{count}</b> запись
+        few: Отображено <b>%{count}</b> записи
+        many: Отображено <b>%{count}</b> записей
+        other: Отображено <b>%{count}</b> записей
+      multi_page:
+        one: Отображено %{from} - %{to} из %{count} записи
+        few: Отображено %{from} - %{to} из %{count} записей
+        many: Отображено %{from} - %{to} из %{count} записей
+        other: Отображено %{from} - %{to} из %{count} записей
+      multi_page_html:
+        one: Отображено <b>%{from}&nbsp;-&nbsp;%{to}</b> из <b>%{count}</b> записи
+        few: Отображено <b>%{from}&nbsp;-&nbsp;%{to}</b> из <b>%{count}</b> записей
+        many: Отображено <b>%{from}&nbsp;-&nbsp;%{to}</b> из <b>%{count}</b> записей
+        other: Отображено <b>%{from}&nbsp;-&nbsp;%{to}</b> из <b>%{count}</b> записей
     page_gap: ! '&hellip;'
     previous_label: ← Предыдущая
