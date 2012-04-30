@@ -3,13 +3,13 @@ ru:
     next_label: Следующая →
     page_entries_info:
       single_page:
-        zero: %{model} не найдены
+        zero: ! '%{model} не найдены'
         one: Отображена %{count} %{model}
         few: Отображено %{count} %{model}
         many: Отображено %{count} %{model}
         other: Отображено %{count} %{model}
       single_page_html:
-        zero: %{model} не найдены
+        zero: ! '%{model} не найдены'
         one: Отображена <b>%{count}</b> %{model}
         few: Отображено <b>%{count}</b> %{model}
         many: Отображено <b>%{count}</b> %{model}
