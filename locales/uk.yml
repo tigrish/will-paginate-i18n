@@ -1,0 +1,28 @@
+uk:
+  will_paginate:
+    next_label: Далі →
+    page_entries_info:
+      single_page:
+        zero: ! '%{model} не знайдено'
+        one: Показано %{count} %{model}
+        few: Показано %{count} %{model}
+        many: Показано %{count} %{model}
+        other: Показано %{count} %{model}
+      single_page_html:
+        zero: ! '%{model} не знайдено'
+        one: Показано <b>%{count}</b> %{model}
+        few: Показано <b>%{count}</b> %{model}
+        many: Показано <b>%{count}</b> %{model}
+        other: Показано <b>%{count}</b> %{model}
+      multi_page:
+        one: Показано %{model} %{from} - %{to} з %{count}
+        few: Показано %{model} %{from} - %{to} з %{count}
+        many: Показано %{model} %{from} - %{to} з %{count}
+        other: Показано %{model} %{from} - %{to} з %{count}
+      multi_page_html:
+        one: Показано %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> з <b>%{count}</b>
+        few: Показано %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> з <b>%{count}</b>
+        many: Показано %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> з <b>%{count}</b>
+        other: Показано %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> з <b>%{count}</b>
+    page_gap: ! '&hellip;'
+    previous_label: ← Назад
