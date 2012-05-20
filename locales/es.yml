@@ -5,7 +5,8 @@ es:
     previous_label: ← atrás
     page_entries_info:
       multi_page: Mostrando %{model} %{from} - %{to} de %{count} en total
-      multi_page_html: Mostrando %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> de <b>%{count}</b> en total
+      multi_page_html: Mostrando %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> de <b>%{count}</b>
+        en total
       single_page:
         one: Mostrando 1 %{model}
         other: Mostrando en total %{count} %{model}
