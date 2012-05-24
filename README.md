@@ -7,13 +7,10 @@ Translations for the will-paginate gem.
 ## Contributing to will-paginate-i18n
 
 - Edit the translations directly on the [will-paginate-i18n](http://www.localeapp.com/projects/378) project on Locale.
-- Periodically, the translations will be pulled and made into a gem release.
+- **That's it!**
+- The maintainer will then pull translations from the Locale project and push to Github.
 
-## You might also be interested in :
-
-* [rails-i18n](https://github.com/svenfuchs/rails-i18n)
-* [devise-i18n](https://github.com/tigrish/devise-i18n)
-* [Locale](http://www.localeapp.com)
+Happy translating!
 
 ## Copyright
 
