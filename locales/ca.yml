@@ -1,0 +1,17 @@
+ca:
+  will_paginate:
+    next_label: Següent &#8594;
+    page_entries_info:
+      multi_page: Es mostren %{model} %{from} - %{to} de %{count} en total
+      multi_page_html: Es mostren %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> de <b>%{count}</b>
+        en total
+      single_page:
+        one: Es mostra 1 %{model}
+        other: Es mostren tots %{count} %{model}
+        zero: No s'ha trobat cap %{model}
+      single_page_html:
+        one: Es mostra <b>1</b> %{model}
+        other: Es mostren <b>tots&nbsp;%{count}</b> %{model}
+        zero: No s'ha trobat cap %{model}
+    page_gap: ! '&hellip;'
+    previous_label: ! '&#8592; Anterior'
