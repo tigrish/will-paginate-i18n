@@ -3,3 +3,9 @@ pt-PT:
     next_label: próximo →
     page_gap: ! '&hellip;'
     previous_label: ← anterior
+    page_entries_info:
+      multi_page: Mostrando %{model} %{from} - %{to} de %{count} no total
+      multi_page_html:
+        content_item:
+          description: Mostrando %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> de <b>%{count}</b>
+            no total
