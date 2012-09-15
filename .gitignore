@@ -15,6 +15,7 @@ doc
 pkg
 
 .DS_Store
+.rvmrc
 
 # localeapp
 .localeapp
