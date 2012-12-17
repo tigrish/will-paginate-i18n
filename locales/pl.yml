@@ -1,0 +1,15 @@
+pl:
+  will_paginate:
+    next_label: Następna &#8594;
+    page_entries_info:
+      multi_page: Wyświetlam %{model} %{from} - %{to} z %{count} wszystkich
+      multi_page_html: Wyświetlam %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> z <b>%{count}</b>
+        wszystkich
+      single_page:
+        one: Wyświetlam 1 %{model}
+        other: Wyświetlam wszystkie %{count} %{model}
+      single_page_html:
+        one: Wyświetlam <b>1</b> %{model}
+        other: wyświetlam <b>wszystkie&nbsp;%{count}</b> %{model}
+    page_gap: ! '&hellip;'
+    previous_label: ! '&#8592; Poprzednia'
