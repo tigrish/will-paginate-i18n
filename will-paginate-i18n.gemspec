@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{will-paginate-i18n}
-  s.version = "0.1.11"
+  s.version = "0.1.12"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Christopher Dell}]
-  s.date = %q{2012-08-06}
+  s.date = %q{2013-01-29}
   s.description = %q{Translations for the will_paginate gem}
   s.email = %q{chris@tigrish.com}
   s.extra_rdoc_files = [
@@ -19,8 +19,6 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     ".rspec",
-    ".rvmrc",
-    ".travis.yml",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
@@ -34,15 +32,17 @@ Gem::Specification.new do |s|
     "locales/de.yml",
     "locales/en-AU.yml",
     "locales/en-GB.yml",
-    "locales/en-US.yml",
+    "locales/en.yml",
     "locales/es.yml",
+    "locales/fi.yml",
     "locales/fr.yml",
     "locales/hu.yml",
     "locales/it.yml",
     "locales/ja.yml",
     "locales/nl.yml",
+    "locales/pl.yml",
     "locales/pt-BR.yml",
-    "locales/pt-PT.yml",
+    "locales/pt.yml",
     "locales/ro.yml",
     "locales/ru.yml",
     "locales/sk.yml",
@@ -64,14 +64,14 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<rspec>, ["~> 2.8.0"])
-      s.add_development_dependency(%q<bundler>, ["~> 1.0.10"])
+      s.add_development_dependency(%q<bundler>, ["~> 1.2.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.3"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
       s.add_development_dependency(%q<i18n-spec>, [">= 0"])
       s.add_development_dependency(%q<localeapp>, [">= 0"])
     else
       s.add_dependency(%q<rspec>, ["~> 2.8.0"])
-      s.add_dependency(%q<bundler>, ["~> 1.0.10"])
+      s.add_dependency(%q<bundler>, ["~> 1.2.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
       s.add_dependency(%q<rcov>, [">= 0"])
       s.add_dependency(%q<i18n-spec>, [">= 0"])
@@ -79,7 +79,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<rspec>, ["~> 2.8.0"])
-    s.add_dependency(%q<bundler>, ["~> 1.0.10"])
+    s.add_dependency(%q<bundler>, ["~> 1.2.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
     s.add_dependency(%q<rcov>, [">= 0"])
     s.add_dependency(%q<i18n-spec>, [">= 0"])
