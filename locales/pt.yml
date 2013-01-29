@@ -1,9 +1,11 @@
-pt-PT:
+pt:
   will_paginate:
     next_label: próximo →
-    page_gap: ! '&hellip;'
-    previous_label: ← anterior
     page_entries_info:
       multi_page: Mostrando %{model} %{from} - %{to} de %{count} no total
       multi_page_html: Mostrando %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> de <b>%{count}</b>
         no total
+      single_page: 
+      single_page_html: 
+    page_gap: ! '&hellip;'
+    previous_label: ← anterior
