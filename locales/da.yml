@@ -5,3 +5,6 @@ da:
     previous_label: ← forrige
     page_entries_info:
       multi_page: Viser %{model} %{from} - %{to} af ialt %{count}
+      multi_page_html: 
+      single_page: 
+      single_page_html: 

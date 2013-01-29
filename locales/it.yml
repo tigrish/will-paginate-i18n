@@ -3,3 +3,8 @@ it:
     next_label: successivo →
     page_gap: ! '&hellip;'
     previous_label: ← precedente
+    page_entries_info:
+      multi_page: 
+      multi_page_html: 
+      single_page: 
+      single_page_html: 
