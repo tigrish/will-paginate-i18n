@@ -1,4 +1,4 @@
-en-US:
+en:
   will_paginate:
     next_label: Next &#8594;
     page_entries_info:
