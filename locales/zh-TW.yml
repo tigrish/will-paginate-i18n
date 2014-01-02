@@ -1,0 +1,16 @@
+zh-TW:
+  will_paginate:
+    next_label: "下一頁"
+    page_entries_info:
+      multi_page: "正列出 %{model} 的第 %{from} 到第 %{to} 筆資料 (共 %{count} 筆資料)"
+      multi_page_html: "正列出 %{model} 的第 <strong>%{from}</strong> 到第 <strong>%{to}</strong> 筆資料 (共 <strong>%{count}</strong> 筆資料)"
+      single_page:
+        one: "正列出 1 則 %{model} 資料"
+        other: "正列出所有共 %{count} 筆的 %{model} 資料"
+        zero: "暫無任何 %{model} 的資料"
+      single_page_html:
+        one: "正列出 <strong>1</strong> 筆 %{model} 資料"
+        other: "正列出所有共 <strong>%{count}</strong> 筆的 %{model} 資料"
+        zero: "暫無任何 %{model} 的資料"
+    page_gap: "…"
+    previous_label: "上一頁"
