@@ -11,5 +11,5 @@ fi:
       single_page_html:
         one: Näytetään <b>1</b> %{model}
         other: Näytetään <b>kaikki %{count}</v> %{model}
-    page_gap: ! '&hellip;'
-    previous_label: ! '&#8592; Edellinen'
+    page_gap: '&hellip;'
+    previous_label: '&#8592; Edellinen'

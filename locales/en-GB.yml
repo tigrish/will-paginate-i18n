@@ -13,5 +13,5 @@ en-GB:
         one: Displaying <b>1</b> %{model}
         other: Displaying <b>all&nbsp;%{count}</b> %{model}
         zero: No %{model} found
-    page_gap: ! '&hellip;'
-    previous_label: ! '&#8592; Previous'
+    page_gap: '&hellip;'
+    previous_label: '&#8592; Previous'

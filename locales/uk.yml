@@ -3,13 +3,13 @@ uk:
     next_label: Далі →
     page_entries_info:
       single_page:
-        zero: ! '%{model} не знайдено'
+        zero: '%{model} не знайдено'
         one: Показано %{count} %{model}
         few: Показано %{count} %{model}
         many: Показано %{count} %{model}
         other: Показано %{count} %{model}
       single_page_html:
-        zero: ! '%{model} не знайдено'
+        zero: '%{model} не знайдено'
         one: Показано <b>%{count}</b> %{model}
         few: Показано <b>%{count}</b> %{model}
         many: Показано <b>%{count}</b> %{model}
@@ -24,5 +24,5 @@ uk:
         few: Показано %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> з <b>%{count}</b>
         many: Показано %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> з <b>%{count}</b>
         other: Показано %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> з <b>%{count}</b>
-    page_gap: ! '&hellip;'
+    page_gap: '&hellip;'
     previous_label: ← Назад

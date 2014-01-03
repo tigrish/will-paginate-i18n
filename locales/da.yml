@@ -1,7 +1,7 @@
 da:
   will_paginate:
     next_label: næste →
-    page_gap: ! '&hellip;'
+    page_gap: '&hellip;'
     previous_label: ← forrige
     page_entries_info:
       multi_page: Viser %{model} %{from} - %{to} af ialt %{count}

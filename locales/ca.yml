@@ -13,5 +13,5 @@ ca:
         one: Es mostra <b>1</b> %{model}
         other: Es mostren <b>tots&nbsp;%{count}</b> %{model}
         zero: No s'ha trobat cap %{model}
-    page_gap: ! '&hellip;'
-    previous_label: ! '&#8592; Anterior'
+    page_gap: '&hellip;'
+    previous_label: '&#8592; Anterior'

@@ -1,7 +1,7 @@
 nl:
   will_paginate:
     next_label: volgende →
-    page_gap: ! '&hellip;'
+    page_gap: '&hellip;'
     previous_label: ← vorige
     page_entries_info:
       multi_page: Toon %{model} %{from} - %{to} van %{count} in totaal

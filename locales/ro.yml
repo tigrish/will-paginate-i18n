@@ -1,7 +1,7 @@
 ro:
   will_paginate:
     next_label: următor →
-    page_gap: ! '&hellip;'
+    page_gap: '&hellip;'
     previous_label: ← anterior
     page_entries_info:
       multi_page: 

@@ -11,5 +11,5 @@ pl:
       single_page_html:
         one: Wyświetlam <b>1</b> %{model}
         other: wyświetlam <b>wszystkie&nbsp;%{count}</b> %{model}
-    page_gap: ! '&hellip;'
-    previous_label: ! '&#8592; Poprzednia'
+    page_gap: '&hellip;'
+    previous_label: '&#8592; Poprzednia'

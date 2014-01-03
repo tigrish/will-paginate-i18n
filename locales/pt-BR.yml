@@ -13,5 +13,5 @@ pt-BR:
         one: Exibindo <b>1</b> %{model}
         other: Exibindo <b>todos os&nbsp;%{count}</b> %{model}
         zero: Nenhum %{model} encontrado
-    page_gap: ! '&hellip;'
-    previous_label: ! '&#8592; Anteriores'
+    page_gap: '&hellip;'
+    previous_label: '&#8592; Anteriores'

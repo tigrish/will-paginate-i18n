@@ -1,10 +1,10 @@
 it:
   will_paginate:
-    next_label: successivo →
-    page_gap: ! '&hellip;'
-    previous_label: ← precedente
+    next_label: successivo &#8594;
+    page_gap: '&hellip;'
+    previous_label: '&#8592; precedente'
     page_entries_info:
-      multi_page: 
+      multi_page: Visualizzati %{model} %{from} - %{to} di %{count} in totale
       multi_page_html: 
       single_page: 
       single_page_html: 

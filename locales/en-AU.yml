@@ -11,5 +11,5 @@ en-AU:
       single_page_html:
         one: Displaying <b>1</b> %{model}
         other: Displaying <b>all&nbsp;%{count}</b> %{model}
-    page_gap: ! '&hellip;'
+    page_gap: '&hellip;'
     previous_label: ← previous

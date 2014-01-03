@@ -1,7 +1,7 @@
 hu:
   will_paginate:
     next_label: következő →
-    page_gap: ! '&hellip;'
+    page_gap: '&hellip;'
     previous_label: ← előző
     page_entries_info:
       multi_page: 

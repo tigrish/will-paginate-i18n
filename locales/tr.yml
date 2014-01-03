@@ -7,11 +7,11 @@ tr:
         %{model} gösteriliyor.
       single_page:
         one: 1 %{model} gösteriliyor
-        other: ! '%{count} %{model} hepsi gösteriliyor'
+        other: '%{count} %{model} hepsi gösteriliyor'
         zero: Hiç %{model} yok
       single_page_html:
         one: <b>1</b> %{model} gösteriliyor
         other: <b>%{count}</b> %{model} hepsi gösteriliyor
         zero: Hiç %{model} yok
-    page_gap: ! '&hellip;'
-    previous_label: ! '&#8592; Önceki'
+    page_gap: '&hellip;'
+    previous_label: '&#8592; Önceki'

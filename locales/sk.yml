@@ -13,5 +13,5 @@ sk:
         one: Zobrazujem <b>1</b> %{model}
         other: Zobrazujem <b>všetkých&nbsp;%{count}</b> %{model}
         zero: Nenájdený žiadny %{model}
-    page_gap: ! '&hellip;'
-    previous_label: ! '&#8592; Predošlá'
+    page_gap: '&hellip;'
+    previous_label: '&#8592; Predošlá'

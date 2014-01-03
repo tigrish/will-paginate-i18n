@@ -7,5 +7,5 @@ pt:
         no total
       single_page: 
       single_page_html: 
-    page_gap: ! '&hellip;'
+    page_gap: '&hellip;'
     previous_label: ← anterior
