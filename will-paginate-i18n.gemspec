@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Christopher Dell"]
-  s.date = "2014-01-03"
+  s.date = "2014-01-04"
   s.description = "Translations for the will_paginate gem"
   s.email = "chris@tigrish.com"
   s.extra_rdoc_files = [
