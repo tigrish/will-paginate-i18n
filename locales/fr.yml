@@ -2,14 +2,13 @@ fr:
   will_paginate:
     next_label: suivant →
     page_entries_info:
-      multi_page: '%{model} %{from} - %{to} sur %{count} au total'
-      multi_page_html: '%{model} <strong>%{from} - %{to}</strong> sur <strong>%{count}</strong>
-        au total'
+      multi_page: "%{model} %{from} - %{to} sur %{count} au total"
+      multi_page_html: "%{model} <strong>%{from} - %{to}</strong> sur <strong>%{count}</strong> au total"
       single_page:
-        one: '%{count} %{model} affiché(e)'
-        other: '%{count} %{model} affiché(e)s'
+        one: "%{count} %{model} affiché(e)"
+        other: "%{count} %{model} affiché(e)s"
       single_page_html:
-        one: '%{count} %{model} affiché(e)'
-        other: '%{count} %{model} affiché(e)s'
-    page_gap: '&hellip;'
-    previous_label: ← précédent
+        one: "%{count} %{model} affiché(e)"
+        other: "%{count} %{model} affiché(e)s"
+    page_gap: "&hellip;"
+    previous_label: "← précédent"

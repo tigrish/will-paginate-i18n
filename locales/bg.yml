@@ -1,10 +1,10 @@
 bg:
   will_paginate:
-    next_label: следваща →
-    page_gap: '&hellip;'
-    previous_label: ← предишна
+    next_label: "следваща →"
     page_entries_info:
       multi_page: 
       multi_page_html: 
       single_page: 
       single_page_html: 
+    page_gap: "&hellip;"
+    previous_label: "← предишна"
