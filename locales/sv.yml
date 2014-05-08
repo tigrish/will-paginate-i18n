@@ -1,0 +1,17 @@
+sv:
+  will_paginate:
+    next_label: Nästa &#8594;
+    page_entries_info:
+      multi_page: Visar %{model} %{from} - %{to} av %{count} totalt
+      multi_page_html: Visar %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> av <b>%{count}</b>
+        totalt
+      single_page:
+        one: Visar 1 %{model}
+        other: Visar alla %{count} %{model}
+        zero: Inga %{model} hittades
+      single_page_html:
+        one: Visar <b>1</b> %{model}
+        other: Visar <b>alla&nbsp;%{count}</b> %{model}
+        zero: Inga %{model} hittades
+    page_gap: '&hellip;'
+    previous_label: '&#8592; Föregående'
