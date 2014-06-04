@@ -1,14 +1,16 @@
 nl:
   will_paginate:
-    next_label: volgende →
+    next_label: Volgende &#8594;
     page_entries_info:
-      multi_page: Toon %{model} %{from} - %{to} van %{count} in totaal
-      multi_page_html: Toon %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> van <b>%{count}</b> in totaal
+      multi_page: "%{from} - %{to} van de in totaal %{count} %{model}"
+      multi_page_html: "<b>%{from}&nbsp;-&nbsp;%{to}</b> van de in totaal <b>%{count}</b> %{model}"
       single_page:
-        one: Toon 1 %{model}
-        other: Toon alle %{count} %{model}
+        one: 1 %{model}
+        other: Alle %{count} %{model}
+        zero: Geen %{model} gevonden
       single_page_html:
-        one: Toon <b>1</b> %{model}
-        other: Toon <b>alle&nbsp;%{count}</b> %{model}
+        one: "<b>1</b> %{model}"
+        other: "<b>Alle&nbsp;%{count}</b> %{model}"
+        zero: Geen %{model} gevonden
     page_gap: "&hellip;"
-    previous_label: "← vorige"
+    previous_label: "&#8592; Vorige"
