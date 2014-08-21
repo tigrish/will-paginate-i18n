@@ -1,0 +1,14 @@
+ml:
+  will_paginate:
+    next_label: "അടുത്തത് &#8594;"
+    page_entries_info:
+      multi_page: "മൊത്തം %{count} എണ്ണത്തിൽ %{from} മുതൽ %{to} വരെയുള്ള %{model} കാണിക്കുന്നു"
+      multi_page_html: "മൊത്തം<b>%{count}</b> എണ്ണത്തിൽ <b>%{from} മുതൽ %{to} വരെയുള്ള</b> %{model} കാണിക്കുന്നു"
+      single_page:
+        one: 1 %{model} കാണിക്കുന്നു
+        other: "എല്ലാ %{count} %{model}ഉം കാണിക്കുന്നു"
+      single_page_html:
+        one: "<b>1</b> %{model} കാണിക്കുന്നു"
+        other: "<b>എല്ലാ &nbsp;%{count}</b> %{model}ഉം കാണിക്കുന്നു"
+    page_gap: "&hellip;"
+    previous_label: "&#8592; മുൻപുള്ളത്"
