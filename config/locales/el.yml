@@ -1,0 +1,16 @@
+el:
+will_paginate:
+next_label: Επόμενο &#8594;
+page_entries_info:
+multi_page: Προβολή %{model} %{from} - %{to} από %{count} συνολικά
+multi_page_html: Προβολή %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> από <b>%{count}</b> συνολικά
+single_page:
+one: Προβολή 1 %{model}
+other: Προβολή όλων των %{count} %{model}
+zero: Κανένα %{model} δεν βρέθηκε
+single_page_html:
+one: Προβολή <b>1</b> %{model}
+other: Προβολή <b>όλων των&nbsp;%{count}</b> %{model}
+zero: Κανένα %{model} δεν βρέθηκε
+page_gap: "&hellip;"
+previous_label: "&#8592; Προηγούμενο"
