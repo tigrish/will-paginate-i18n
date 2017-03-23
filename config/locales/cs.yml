@@ -1,0 +1,16 @@
+cs:
+  will_paginate:
+    next_label: Další &#8594;
+    page_entries_info:
+      multi_page: Zobrazuji %{model} %{from} - %{to} z %{count} celkem
+      multi_page_html: Zobrazuji %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> z <b>%{count}</b> celkem
+      single_page:
+        one: Zobrazuji 1 %{model}
+        other: Zobrazuji všech %{count} %{model}
+        zero: Žádný %{model} nenalezen
+      single_page_html:
+        one: Zobrazuji <b>1</b> %{model}
+        other: Zobrazuji <b>všech&nbsp;%{count}</b> %{model}
+        zero: Žádný %{model} nenalezen
+    page_gap: "&hellip;"
+    previous_label: "&#8592; Předchozí"
