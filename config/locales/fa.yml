@@ -1,0 +1,16 @@
+fa:
+  will_paginate:
+    next_label: بعدی &#8594;
+    page_entries_info:
+      multi_page: نمایش %{model} %{from} - %{to} از %{count}
+      multi_page_html: نمایش %{model} <b>%{from}&nbsp;-&nbsp;%{به}</b> از <b>%{count}</b>
+      single_page:
+        one: نمایش یک %{model}
+        other: نمایش تمامی %{count} %{model}
+        zero: هیچ %{model}‌ای پیدا نشد
+      single_page_html:
+        one: نمایش <b>یک</b> %{model}
+        other: نمایش <b>تمام&nbsp;%{count}</b> %{model}
+        zero: هیچ %{model}‌ای پیدا نشد
+    page_gap: "&hellip;"
+    previous_label: "&#8592; قبلی"
