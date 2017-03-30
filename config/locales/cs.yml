@@ -7,10 +7,10 @@ cs:
       single_page:
         one: Zobrazuji 1 %{model}
         other: Zobrazuji všech %{count} %{model}
-        zero: Žádný %{model} nenalezen
+        zero: "Žádný %{model} nenalezen"
       single_page_html:
         one: Zobrazuji <b>1</b> %{model}
         other: Zobrazuji <b>všech&nbsp;%{count}</b> %{model}
-        zero: Žádný %{model} nenalezen
+        zero: "Žádný %{model} nenalezen"
     page_gap: "&hellip;"
     previous_label: "&#8592; Předchozí"
