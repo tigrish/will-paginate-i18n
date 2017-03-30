@@ -1,10 +1,10 @@
 it:
   will_paginate:
-    next_label: successivo &#8594;
+    next_label: Successivo &#8594;
     page_entries_info:
       multi_page: Visualizzati %{model} %{from} - %{to} di %{count} in totale
-      multi_page_html: 
+      multi_page_html: Visualizzati %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> di </b>%{count}</b> in totale
       single_page: 
       single_page_html: 
     page_gap: "&hellip;"
-    previous_label: "&#8592; precedente"
+    previous_label: "&#8592; Precedente"

@@ -6,15 +6,11 @@ pl:
       multi_page_html: Wyświetlam %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> z <b>%{count}</b> wszystkich
       single_page:
         few: Wyświetlam %{count} %{model}
-        many: Wyświetlam %{count} %{model}
         one: Wyświetlam 1 %{model}
         other: Wyświetlam wszystkie %{count} %{model}
-        zero: Nie znaleziono %{model}
       single_page_html:
         few: Wyświetlam <b>%{count}</b> %{model}
-        many: Wyświetlam <b>%{count}</b> %{model}
         one: Wyświetlam <b>1</b> %{model}
         other: wyświetlam <b>wszystkie&nbsp;%{count}</b> %{model}
-        zero: Nie znaleziono %{model}
     page_gap: "&hellip;"
     previous_label: "&#8592; Poprzednia"
