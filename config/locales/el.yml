@@ -1,0 +1,14 @@
+el:
+  will_paginate:
+    next_label: "Επόμενο &#8594;"
+    page_entries_info:
+      multi_page: "Προβολή %{model} %{from} - %{to} από %{count} συνολικά"
+      multi_page_html: "Προβολή %{model} <b>%{from} - %{to}</b> από %{count} συνολικά"
+      single_page:
+        one: "Εμφανίζεται 1 %{model}"
+        other: "Εμφανίζονται οι %{count} εγγραφές του %{model}"
+      single_page_html:
+        one: "Εμφανίζεται <b>1</b> %{model}"
+        other: "Εμφανίζονται <b>οι&nbsp;%{count}</b>του %{model}"
+    page_gap: "&hellip;"
+    previous_label: "&#8592; Προηγούμενο"
