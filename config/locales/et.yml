@@ -1,0 +1,14 @@
+et:
+  will_paginate:
+    next_label: Järgmine →
+    page_entries_info:
+      multi_page: Kuvan %{from} - %{to} %{model}-objekti %{count}st
+      multi_page_html: Kuvan <b>%{from}&nbsp;-&nbsp;%{to}</b> %{model}-objekti <b>%{count}</b>st
+      single_page:
+        one: Kuvan 1 %{model}-objekti
+        other: Kuvan %{count} %{model}-objekti
+      single_page_html:
+        one: Kuvan <b>1</b> %{model}-objekti
+        other: Kuvan <b>&nbsp;%{count}</b> %{model}-objekti
+    page_gap: "..."
+    previous_label: "← Eelmine"
