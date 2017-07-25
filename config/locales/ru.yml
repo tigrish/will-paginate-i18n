@@ -15,13 +15,13 @@ ru:
       single_page:
         few: "Отображено %{count} %{model}"
         many: "Отображено %{count} %{model}"
-        one: "Отображена %{count} %{model}"
+        one: "Отображено %{count} %{model}"
         other: "Отображено %{count} %{model}"
         zero: "%{model} не найдены"
       single_page_html:
         few: "Отображено <b>%{count}</b> %{model}"
         many: "Отображено <b>%{count}</b> %{model}"
-        one: "Отображена <b>%{count}</b> %{model}"
+        one: "Отображено <b>%{count}</b> %{model}"
         other: "Отображено <b>%{count}</b> %{model}"
         zero: "%{model} не найдены"
     page_gap: "&hellip;"
