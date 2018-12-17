@@ -1,0 +1,16 @@
+sq:
+  will_paginate:
+    next_label: Pasuesja &#8594;
+    page_entries_info:
+      multi_page: Po shfaqen %{model} %{from} - %{to} nga %{count} gjithsej
+      multi_page_html: Po shfaqen %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> nga <b>%{count}</b> gjithsej
+      single_page:
+        one: Po shfaqet 1 %{model}
+        other: Po shfaqen krejt %{count} %{model}
+        zero: S’u gjet %{model}
+      single_page_html:
+        one: Po shfaqet <b>1</b> %{model}
+        other: Po shfaqen <b>all&nbsp;%{count}</b> %{model}
+        zero: S’u gjet %{model}
+    page_gap: "&hellip;"
+    previous_label: "&#8592; E mëparshmja"
