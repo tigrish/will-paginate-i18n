@@ -14,3 +14,4 @@ es:
         zero: No se encontraron %{model}
     page_gap: "&hellip;"
     previous_label: "← Atrás"
+    
