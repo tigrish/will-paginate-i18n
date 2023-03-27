@@ -7,8 +7,10 @@ fr:
       single_page:
         one: "%{count} %{model} affiché(e)"
         other: "%{count} %{model} affiché(e)s"
+        zero: "Aucun %{model} trouvé(e)"
       single_page_html:
         one: "%{count} %{model} affiché(e)"
         other: "%{count} %{model} affiché(e)s"
+        zero: "Aucun %{model} trouvé(e)"
     page_gap: "&hellip;"
     previous_label: "← précédent"
